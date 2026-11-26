@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ru.debloat.click/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://debloat.click/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://debloat.click/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://debloat.click/es/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://debloat.click/es-419/"/>
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://debloat.click/es-419/"/>
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://debloat.click/es-419/"/>
+    <xhtml:link rel="alternate" hreflang="es-CL" href="https://debloat.click/es-419/"/>
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://debloat.click/es-419/"/>
+    <xhtml:link rel="alternate" hreflang="es-VE" href="https://debloat.click/es-419/"/>
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://debloat.click/es-419/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://debloat.click/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://debloat.click/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://debloat.click/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://debloat.click/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://debloat.click/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://debloat.click/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://debloat.click/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://debloat.click/tr/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://debloat.click/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ru.debloat.click/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://debloat.click/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://debloat.click/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://debloat.click/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://debloat.click/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://debloat.click/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://debloat.click/zh-cn/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://debloat.click/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://debloat.click/"/>
+  </url>
+  <url>
+    <loc>https://ru.debloat.click/kak-otklyuchit-obzor-ot-ii-v-google/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://debloat.click/turn-off-google-ai-overview/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://debloat.click/de/google-uebersicht-mit-ki-deaktivieren/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://debloat.click/fr/desactiver-apercu-ia-google/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ru.debloat.click/kak-otklyuchit-obzor-ot-ii-v-google/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://debloat.click/turn-off-google-ai-overview/"/>
+  </url>
+  <url>
+    <loc>https://ru.debloat.click/kak-otklyuchit-rezhim-ii-v-google/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://debloat.click/turn-off-google-ai-mode/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://debloat.click/de/google-ki-modus-deaktivieren/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://debloat.click/fr/desactiver-mode-ia-google/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://debloat.click/nl/google-ai-modus-uitzetten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://debloat.click/pl/jak-wylaczyc-tryb-ai-w-google/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://debloat.click/pt-br/como-desativar-modo-ia-google/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ru.debloat.click/kak-otklyuchit-rezhim-ii-v-google/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://debloat.click/ja/google-ai-mode-kesu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://debloat.click/turn-off-google-ai-mode/"/>
+  </url>
+</urlset>

@@ -1,0 +1,194 @@
+/* =========================
+   Debloat – THEME TOKENS
+   ========================= */
+
+:root {
+  color-scheme: dark;
+
+  /* Emerald (primary brand) */
+  --emerald-900: #064E3B;
+  --emerald-700: #047857;
+  --emerald-500: #10B981;
+  --emerald-400: #34D399;
+  --emerald-300: #6EE7B7;
+
+  /* Neutrals */
+  --gray-950: #000000;
+  --gray-900: #111111;
+  --gray-800: #1A1A1A;
+  --gray-700: #333333;
+  --gray-600: #404242;
+  --gray-500: #424242;
+  --gray-400: #808080;
+  --gray-50:  #F8FBFB;
+  --gray-100: #F7F7F8;
+  --gray-200: #F4F8FC;
+  --gray-250: #EAEBEB;
+  --gray-300: #E5E5E4;
+
+  /* Semantic */
+  --danger: #FF4F6E;
+  --success: #10B981;
+  --warning: #FFB347;
+  --info: #3B82F6;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+
+  --fs-body: 1rem;
+  --lh-body: 1.5;
+
+  --fs-control: clamp(0.94rem, 0.92rem + 0.2vw, 0.98rem);
+  --lh-control: 1.25;
+
+  --control-pad-y: 0.35em;
+  --control-pad-x: 0.90em;
+  --border-1: 1px;
+  --control-min-height: calc(
+    1em * var(--lh-control) +
+    2 * var(--control-pad-y) +
+    2 * var(--border-1)
+  );
+
+  --r-pill: 999px;
+  --r-field: 0.75rem;
+  --control-radius: var(--r-pill);
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+
+  --radius-xs: 0.25rem;
+  --radius: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  --shadow-sm-light: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md-light: 0 6px 18px rgba(0, 0, 0, 0.12);
+  --shadow-lg-light: 0 18px 45px rgba(0, 0, 0, 0.25);
+
+  --shadow-sm-dark: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md-dark: 0 6px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg-dark: 0 18px 45px rgba(0, 0, 0, 0.65);
+
+  --shadow-sm: var(--shadow-sm-light);
+  --shadow-md: var(--shadow-md-light);
+  --shadow-lg: var(--shadow-lg-light);
+
+  --shadow-soft:   0 1px 3px  color-mix(in srgb, var(--gray-900) 18%, transparent),
+                   0 1px 2px  color-mix(in srgb, var(--gray-900) 22%, transparent);
+  --shadow-subtle: 0 3px 6px  color-mix(in srgb, var(--gray-900) 16%, transparent),
+                   0 1px 4px  color-mix(in srgb, var(--gray-900) 20%, transparent);
+
+  --transition-fast: 120ms ease-out;
+  --transition-md: 160ms ease-out;
+
+  --z-base: 1;
+  --z-dropdown: 20;
+  --z-header: 200;
+
+  --btn-text-on-dark: #FFFFFF;
+
+  --control-scale-sm: 0.9;
+  --control-scale-md: 1;
+  --control-scale-lg: 1.1;
+}
+
+/* DARK THEME – default */
+:root[data-theme="dark"] {
+  --bg: #0B0F0D;
+  --bg-elevated: #111916;
+  --bg-soft: #162019;
+
+  --panel: var(--bg-elevated);
+  --panel-border: color-mix(in srgb, var(--gray-100) 22%, transparent);
+
+  --text-main: #E7EDE9;
+  --text-muted: #8FA99A;
+  --text-subtle: #6E8A7B;
+
+  --text: var(--text-main);
+  --muted: var(--text-muted);
+
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.14);
+
+  --shadow-sm: var(--shadow-sm-dark);
+  --shadow-md: var(--shadow-md-dark);
+  --shadow-lg: var(--shadow-lg-dark);
+
+  --primary: #10B981;
+  --primary-soft: rgba(16, 185, 129, 0.1);
+  --primary-hover: #34D399;
+
+  --brand: var(--primary);
+
+  --input-bg: rgba(11, 15, 13, 0.9);
+  --input-border: var(--border-subtle);
+  --input-border-focus: rgba(16, 185, 129, 0.8);
+
+  --nav-bg: rgba(11, 15, 13, 0.96);
+}
+
+/* LIGHT THEME */
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #FFFFFF;
+  --bg-elevated: #F5FAF7;
+  --bg-soft: #EEF6F1;
+
+  --panel: var(--bg-elevated);
+  --panel-border: color-mix(in srgb, var(--gray-900) 18%, transparent);
+
+  --text-main: #111111;
+  --text-muted: #4B6355;
+  --text-subtle: #6E8A7B;
+
+  --text: var(--text-main);
+  --muted: var(--text-muted);
+
+  --border-subtle: rgba(15, 23, 18, 0.06);
+  --border-strong: rgba(15, 23, 18, 0.16);
+
+  --shadow-sm: var(--shadow-sm-light);
+  --shadow-md: var(--shadow-md-light);
+  --shadow-lg: var(--shadow-lg-light);
+
+  --primary: #059669;
+  --primary-soft: rgba(5, 150, 105, 0.08);
+  --primary-hover: #047857;
+
+  --brand: var(--primary);
+
+  --danger: #D9264A;
+  --success: #0E7B4C;
+  --warning: #9A6200;
+  --info: #2563EB;
+
+  --input-bg: #FFFFFF;
+  --input-border: var(--border-subtle);
+  --input-border-focus: rgba(5, 150, 105, 0.8);
+
+  --nav-bg: rgba(255, 255, 255, 0.92);
+}
+
+a {
+  color: inherit;
+}
